@@ -14,6 +14,10 @@ body{
 
 nav.nav-top img{
     width: 50px;
+    border: 1px solid red;
+    outline: 2px solid red;
+    outline-offset: 3px;
+    margin: 10px;
 }
 
 .nav-top .sign-in{
@@ -40,3 +44,47 @@ nav.nav-top img{
 
 /* NAV-MAIN */
 /*https://css-recap.netlify.app/# */
+
+
+.nav-main{
+    /* border: 1px solid gray; */
+    padding: 30px;
+    background-color: rgb(234, 163, 32);
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+.nav-main a{
+    text-decoration: none;
+    font-family: "DynaPuff";
+    color: black;
+    font-weight: 700;
+    margin: 20px;         
+    
+}
+
+.nav-main a:hover{
+    color: white;
+}
+
+main{
+    margin: 30px;
+    text-align: justify;
+    font-weight: 600;
+    
+}
+
+.icon{
+       
+    height: 2.5rem ;
+    width: 2.5rem;
+    border-radius: 50%;
+    float: right;
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+
+    
+}
+
